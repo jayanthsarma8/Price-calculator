@@ -75,10 +75,15 @@
                     "a. ... THE ASSURANCE THAT EVERYTHING KEEPS WORKING SMOOTHLY ALL THE TIME AND A SERVICE DESK FOR ALL OF MY QUESTIONS AND REPORTS.",
                     "b. ... THE ASSURANCE THAT MY PRODUCT WILL GET ALL OF THE REQUIRED UPDATES.",
                     "c. ... A CUSTOM MADE PARTNERSHIP THAT ENSURES MY PRODUCT TO EXCEL.",
+                    "d. … NO MORE GUIDANCE"]},
+                {"For the go-to-market of my solution I need…":[
+                    "a. ... LITTLE SUPPORT FOR THE 'GO TO MARKET' OF MY PRODUCT.",
+                    "b. ... PROACTIVE SUPPORT AND FITTING MARKETING ACTIONS ON A PERSONALISED ROADMAP.",
+                    "c. ... A CUSTOM MADE PARTNERSHIP THAT ENSURES MY PRODUCT TO EXCEL IN THE MARKET.",
                     "d. … NO MORE GUIDANCE"]}
 
 ]
     , "Sections":{
-        "1":[0,1],"2":[2,3,4,5,6,7,8,9,10,11,12,13],"3":[14,15,16]
+        "1":[0,1],"2":[2,3,4,5,6,7,8,9,10,11,12,13],"3":[14,15],"4":[16,17,18,19],"5":[20,21]
     }
 }

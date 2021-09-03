@@ -1,5 +1,5 @@
 {
-    "Questions":[{"q_text":"Do you already have an existing product to start from","options":[{"option": "a.Yes",'max':20,'min':10,},{"option":"b.No",'max':20,'min':10,}]},
+    "Questions":[{"id":10,"q_text":"Do you already have an existing product to start from","options":[{"a": "Yes",'max':20,'min':10,},{"b":"No",'max':20,'min':10,}],"multiple_choice":true},
                 {"How would you describe the size of your desired digital solution":["a. Small","b. Medium","c. Large"]},
                 
                 {"To what extent do you feel like you need some help in digital strategy?":["1","2","3","4","5"]},

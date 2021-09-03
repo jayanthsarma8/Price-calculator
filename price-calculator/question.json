@@ -1,93 +1,287 @@
 {
-    "Questions":[{"id":10,"q_text":"Do you already have an existing product to start from","options":[{"a": "Yes",'max':20,'min':10,},{"b":"No",'max':20,'min':10,}],"multiple_choice":true},
-                {"How would you describe the size of your desired digital solution":["a. Small","b. Medium","c. Large"]},
-                
-                {"To what extent do you feel like you need some help in digital strategy?":["1","2","3","4","5"]},
-                {"Do you want us to help you define the business objectives for your project?":["a. Yes","b. No"]},
-                {"Do you want us to help you define KPI’s and targets for your objectives?":["a. Yes","b. No"]},
-                {"Do you want us to (further) investigate your target groups and their needs?":["a. Yes", "b. No"]},
-                {"Do you want us to (further) investigate your competition?":["a. Yes","b. No"]},
-                {"Do you want us to guide you through the trends in your industry?":["a. Yes","b. No"]},
-                {"Do you want us to create a clear picture of the strengths and weaknesses of your current offering?":["a. Yes","b. No"]},
-                {"Do you want us to analyse your current analytics in order to offer more personalised recommendations?":["a. Yes","b. No"]},
-                {"Do you want us to translate your business goals into a proposal for a concrete digital solution?":["a. Yes","b. No"]},
-                {"Do you want us to define a roadmap for your offering?":["a. Yes","b. No"]},
-                {"Do you need branding for your product?":["a. Yes","b. No"]},
-                {"Do you need a technical analysis of your product?":["a. Yes","b. No"]},
-                
-                {"Select the aspects you need for UX (multiple allowed)":[
-                    "a. WIREFRAMES",
-                    "b. VISUAL DESIGNS",
-                    "c. USER STORIES",
-                    "d. MVP",
-                    "e. USER TESTS",
-                    "f. ANALYTICS",
-                    "g. AB TESTING",
-                    "h. I DON’T NEED ANY UX"]},
-                {"Select the aspects you need for UX (multiple allowed)":[
-                "a. WIREFRAMES",
-                "b. VISUAL DESIGNS",
-                "c. USER STORIES",
-                "d. MVP",
-                "e. USER TESTS",
-                "f. ANALYTICS",
-                "g. AB TESTING",
-                "h. I DON’T NEED ANY UX"]},
-                
-                {"What devices does your application have to support? (multiple allowed)":["a. PHONE","b. TABLET",
-                    "c. BROWSER",
-                    "d. DESKTOP",
-                    "e. TV",
-                    "f. CMS",
-                    "g. OTHER"]},
-                {"Do you have your own backend systems?":["a. Yes","b. No"]},
-                {"Are there external API's to take into account for integration?":["a. Yes","b. No"]},
-                {"Check off the features you want your product to have. Features that might seem minor to you, can have a big impact on your application and the building process. Be very precise about the options you pick, that way you’ll get the best indication of the required budget. If you don’t have a clue about the meaning of these features, just contact us and our team will be happy to help you out. (multiple allowed)":[
-                    "a. LOCATION / MAPSb. SOCIAL ENGAGEMENT",
-                    "c. BILLING",
-                    "d. 2 FACTOR AUTHENTICATION",
-                    "e. PUSH NOTIFICATIONS",
-                    "f. CAMERA",
-                    "g. BIOMETRICS",
-                    "h. VIDEO / AUDIO",
-                    "i. SOCIAL MEDIA",
-                    "j. IN APP PURCHASES",
-                    "k. CALENDAR",
-                    "l. CHAT",
-                    "m. SCANNING",
-                    "n. 3D",
-                    "o. AUGMENTED REALITY",
-                    "p. ITSME INTEGRATION",
-                    "q. WIDGETS",
-                   "r. GRAPHS",
-                    "s. SETTINGS",
-                    "t. VOICE ACTIONS / ASSISTANT INTEGRATION",
-                    "u. APP ACTIONS / SHORTCUTS",
-                    "v. 'APP PREVIEW' MODE: APP CLIPS / INSTANT APPS",
-                    "w. CAR PLATFORM INTEGRATION",
-                    "x. ARTIFICIAL INTELLIGENCE/MACHINE LEARNING",
-                    "y. ADVANCED ACCESSIBILITY",
-                    "z. AUTHENTICATION (OPEN ID, SSO, SAML, ...)",
-                    "aa. WEBSOCKETS",
-                    "bb. WEB OFFLINE SUPPORT",
-                    "cc. STREAMING"                ]},
-                {"Select your preference: After the release of my product I need…":[
-                    "a. ... THE ASSURANCE THAT EVERYTHING KEEPS WORKING SMOOTHLY ALL THE TIME AND A SERVICE DESK FOR ALL OF MY QUESTIONS AND REPORTS.",
-                    "b. ... THE ASSURANCE THAT MY PRODUCT WILL GET ALL OF THE REQUIRED UPDATES.",
-                    "c. ... A CUSTOM MADE PARTNERSHIP THAT ENSURES MY PRODUCT TO EXCEL.",
-                    "d. … NO MORE GUIDANCE"]},
-                {"For the go-to-market of my solution I need…":[
-                    "a. ... LITTLE SUPPORT FOR THE 'GO TO MARKET' OF MY PRODUCT.",
-                    "b. ... PROACTIVE SUPPORT AND FITTING MARKETING ACTIONS ON A PERSONALISED ROADMAP.",
-                    "c. ... A CUSTOM MADE PARTNERSHIP THAT ENSURES MY PRODUCT TO EXCEL IN THE MARKET.",
-                    "d. … NO MORE GUIDANCE"]}
-]
-    , "Sections":[
-      {"question_ids":[0,1],
-      "section_name":"xyz"},"2":[2,3,4,5,6,7,8,9,10,11,12,13],"3":[14,15],"4":[16,17,18,19],"5":[20,21]
+    "Questions":[
+        {
+           "id" : 1,
+           "q_text" : "Do you already have an existing product to start from ?",
+           "options" : [
+               {     "a" : "Yes" ,"max":20,"min":10  },
+               {     "b" : "No","max":20,"min":10   }
+           ] ,
+           "multiple_choice" : false
+        },
 
-        
+        {
+            "id" : 2,
+            "q_text" : "How would you describe the size of your desired digital solution ?",
+            "options" : [
+                {     "a" : "Small" ,"max":20,"min":10  },
+                {     "b" : "Medium" ,"max":20,"min":10  },
+                {     "b" : "Large"  ,"max":20,"min":10 }
+            ] ,
+            "multiple_choice" : false
+         },
+
+
+         {
+            "id" : 3,
+            "q_text" : "To what extent do you feel like you need some help in digital strategy ?",
+            "options" : [
+                {     "a" : 1,"max":20,"min":10   },
+                {     "b" : 2 ,"max":20,"min":10  },
+                {     "b" : 3 ,"max":20,"min":10  },
+                {     "b" : 4 ,"max":20,"min":10  },
+                {     "b" : 5 ,"max":20,"min":10  }
+            ] ,
+            "multiple_choice" : false
+         },
+
+         {
+            "id" : 4,
+            "q_text" : "Do you want us to help you define the business objectives for your project ?",
+            "options" : [
+                {     "a" : "Yes" ,"max":20,"min":10   },
+                {     "b" : "No" ,"max":20,"min":10   }
+            ] ,
+            "multiple_choice" : false
+         },
+
+         {
+            "id" : 5,
+            "q_text" : "Do you want us to help you define KPI’s and targets for your objectives ?",
+            "options" : [
+                {     "a" : "Yes" ,"max":20,"min":10  },
+                {     "b" : "No"  ,"max":20,"min":10 }
+            ] ,
+            "multiple_choice" : false
+         },
+
+         {
+            "id" : 6,
+            "q_text" : "Do you want us to (further) investigate your target groups and their needs ?",
+            "options" : [
+                {     "a" : "Yes"  ,"max":20,"min":10 },
+                {     "b" : "No"  ,"max":20,"min":10 }
+            ] ,
+            "multiple_choice" : false
+         },
+
+         {
+            "id" : 7,
+            "q_text" : "Do you want us to (further) investigate your competition ?",
+            "options" : [
+                {     "a" : "Yes" ,"max":20,"min":10  },
+                {     "b" : "No","max":20,"min":10}
+            ] ,
+            "multiple_choice" : false
+         },
+
+         {
+            "id" : 8,
+            "q_text" : "Do you want us to guide you through the trends in your industry ?",
+            "options" : [
+                {     "a" : "Yes" ,"max":20,"min":10  },
+                {     "b" : "No"  ,"max":20,"min":10 }
+            ] ,
+            "multiple_choice" : false
+         },
+
+         {
+            "id" : 9,
+            "q_text" : "Do you want us to create a clear picture of the strengths and weaknesses of yourcurrent offering ?",
+            "o ptions" : [
+                {     "a" : "Yes" ,"max":20,"min":10  },
+                {     "b" : "No"  ,"max":20,"min":10 }
+            ] ,
+            "multiple_choice" : false
+         },
+
+         {
+            "id" : 10,
+            "q_text" : "Do you want us to analyse your current analytics in order to offer more personalised recommendations ?",
+            "options" : [
+                {     "a" : "Yes" ,"max":20,"min":10  },
+                {     "b" : "No"  ,"max":20,"min":10 }
+            ] ,
+            "multiple_choice" : false
+         },
+
+         {
+            "id" : 11,
+            "q_text" : "Do you want us to translate your business goals into a proposal for a concrete digital solution ?",
+            "options" : [
+                {     "a" : "Yes" ,"max":20,"min":10  },
+                {     "b" : "No"  ,"max":20,"min":10 }
+            ] ,
+            "multiple_choice" : false
+         },
+
+         {
+            "id" : 12,
+            "q_text" : "Do you want us to define a roadmap for your offering ?",
+            "options" : [
+                {     "a" : "Yes"  ,"max":20,"min":10 },
+                {     "b" : "No"  ,"max":20,"min":10 }
+            ] ,
+            "multiple_choice" : false
+         },
+
+         {
+            "id" : 13,
+            "q_text" : "Do you need branding for your product ?",
+            "options" : [
+                {     "a" : "Yes" ,"max":20,"min":10  },
+                {     "b" : "No"  ,"max":20,"min":10 }
+            ] ,
+            "multiple_choice" : false
+         },
+
+         {
+            "id" : 14,
+            "q_text" : "Do you need a technical analysis of your product ?",
+            "options" : [
+                {     "a" : "Yes" ,"max":20,"min":10  },
+                {     "b" : "No" ,"max":20,"min":10  }
+            ] ,
+            "multiple_choice" : false
+         },
+
+
+         {
+            "id" : 15,
+            "q_text" : "Select the aspects you need for UX (multiple allowed).",
+            "options" : [
+                {     "a" : "WIREFRAMES" ,"max":20,"min":10  },
+                {     "b" : "VISUAL DESIGNS","max":20,"min":10   },
+                {     "c" : "USER STORIES" ,"max":20,"min":10  },
+                {     "d" : "MVP"  ,"max":20,"min":10 },
+                {     "e" : "USER TESTS" ,"max":20,"min":10  },
+                {     "f" : "ANALYTICS" ,"max":20,"min":10  },
+                {     "g" : "AB TESTING" ,"max":20,"min":10  },
+                {     "h" : "I DON’T NEED ANY UX" ,"max":20,"min":10  }
+            ] ,
+            "multiple_choice" : true
+         },
+
+         {
+            "id" : 16,
+            "q_text" : "Mark the aspects you need for UI (multiple allowed).",
+            "options" : [
+                {     "a" : "ANIMATIONS","max":20,"min":10   },
+                {     "b" : "ILLUSTRATIONS","max":20,"min":10   },
+                {     "c" : "DESIGN SYSTEM","max":20,"min":10   },
+                {     "d" : "I DON’T NEED ANY UI" ,"max":20,"min":10  }
+            ] ,
+            "multiple_choice" : true
+         },
+
+
+         {
+            "id" : 17,
+            "q_text" : "What devices does your application have to support? (multiple allowed)",
+            "options" : [
+                {     "a" : "PHONE" ,"max":20,"min":10  },
+                {     "b" : "TABLET" ,"max":20,"min":10  },
+                {     "c" : "BROWSER" ,"max":20,"min":10  },
+                {     "d" : "DESKTOP" ,"max":20,"min":10  },
+                {     "e" : "TV","max":20,"min":10   },
+                {     "f" : "CMS"  ,"max":20,"min":10 },
+                {     "g" : "OTHER" ,"max":20,"min":10  }
+            ] ,
+            "multiple_choice" : true
+         },
+
+         {
+            "id" : 18,
+            "q_text" : "Do you have your own backend systems ?",
+            "options" : [
+                {     "a" : "Yes" ,"max":20,"min":10  },
+                {     "b" : "No","max":20,"min":10   }
+                
+            ] ,
+            "multiple_choice" : false
+         },
+
+         {
+            "id" : 19,
+            "q_text" : "Are there external API's to take into account for integration ?",
+            "options" : [
+                {     "a" : "Yes" ,"max":20,"min":10  },
+                {     "b" : "No" ,"max":20,"min":10  }
+            ] ,
+            "multiple_choice" : false
+         },
+
+         {
+            "id" : 20,
+            "q_text" : "Check off the features you want your product to have. Features that might seem minor to you, can have a big impact on your application and the building process. Be very precise about the options you pick, that way you’ll get the best indication of the required budget. If you don’t have a clue about the meaning of these features, just contact us and our team will be happy to help you out. (multiple allowed).",
+             
+            "options" : [
+                {     "a" : "LOCATION / MAPS" ,"max":20,"min":10  },
+                {     "b" : "SOCIAL ENGAGEMENT" ,"max":20,"min":10  },
+                {     "c" : "BILLING","max":20,"min":10   },
+                {     "d" : "2 FACTOR AUTHENTICATION" ,"max":20,"min":10  },
+                {     "e" : "PUSH NOTIFICATIONS","max":20,"min":10   },
+                {     "f" : "CAMERA","max":20,"min":10   },
+                {     "g" : "BIOMETRICS","max":20,"min":10   },
+                {     "h" : "VIDEO / AUDIO" ,"max":20,"min":10  },
+                {     "i" : "SOCIAL MEDIA","max":20,"min":10   },
+                {     "j" : "IN APP PURCHASES" ,"max":20,"min":10  },
+                {     "k" : "CALENDAR","max":20,"min":10   },
+                {     "l" : "CHAT" ,"max":20,"min":10  },
+                {     "m" : "SCANNING","max":20,"min":10   },
+                {     "n" : "3D" ,"max":20,"min":10  },
+                {     "o" : "AUGMENTED REALITY" ,"max":20,"min":10   },
+                {     "p" : "ITSME INTEGRATION" ,"max":20,"min":10  },
+                {     "q" : "WIDGETS" ,"max":20,"min":10   },
+                {     "r" : "GRAPHS" ,"max":20,"min":10  },
+                {     "s" : "SETTINGS" ,"max":20,"min":10  },
+                {     "t" : "VOICE ACTIONS / ASSISTANT INTEGRATION" ,"max":20,"min":10  },
+                {     "u" : "APP ACTIONS / SHORTCUTS"  ,"max":20,"min":10  },
+                {     "v" : "APP PREVIEW' MODE: APP CLIPS / INSTANT APPS","max":20,"min":10   },
+                {     "w" : "CAR PLATFORM INTEGRATION" ,"max":20,"min":10  },
+                {     "x" : "ARTIFICIAL INTELLIGENCE/MACHINE LEARNING" ,"max":20,"min":10  },
+                {     "y" : "ADVANCED ACCESSIBILITY","max":20,"min":10   },
+                {     "z" : "AUTHENTICATION (OPEN ID, SSO, SAML, ...)" ,"max":20,"min":10  },
+                {     "aa" : "WEBSOCKETS" ,"max":20,"min":10  },
+                {     "bb" : "WEB OFFLINE SUPPORT" ,"max":20,"min":10  },
+                {     "cc" : "STREAMING" ,"max":20,"min":10  }
+                
+
+            ] ,
+            "multiple_choice" : true
+         },
+
+
+         {
+            "id" : 21,
+            "q_text" : "Select your preference: After the release of my product I need…",
+            "options" : [
+                {     "a" : "... THE ASSURANCE THAT EVERYTHING KEEPS WORKING SMOOTHLY ALL THE TIME AND A SERVICE DESK FOR ALL OF MY QUESTIONS AND REPORTS." ,"max":20,"min":10  },
+                {     "b" : "... THE ASSURANCE THAT MY PRODUCT WILL GET ALL OF THE REQUIRED UPDATES." ,"max":20,"min":10  },
+                {     "c" : "... A CUSTOM MADE PARTNERSHIP THAT ENSURES MY PRODUCT TO EXCEL." ,"max":20,"min":10  },
+                {     "d" : "… NO MORE GUIDANCE" ,"max":20,"min":10  }
+            ] ,
+            "multiple_choice" : false
+         },
+
+         {
+            "id" : 22,
+            "q_text" : "For the go-to-market of my solution I need…",
+            "options" : [
+                {     "a" : "... LITTLE SUPPORT FOR THE 'GO TO MARKET' OF MY PRODUCT","max":20,"min":10   },
+                {     "b" : "... PROACTIVE SUPPORT AND FITTING MARKETING ACTIONS ON A PERSONALISED ROADMAP.","max":20,"min":10   },
+                {     "c" : "... A CUSTOM MADE PARTNERSHIP THAT ENSURES MY PRODUCT TO EXCEL IN THE MARKET.","max":20,"min":10   },
+                {     "d" : " … NO MORE GUIDANCE","max":20,"min":10   }
+            ] ,
+            "multiple_choice" : false
+         }
     ]
+    , "Sections":[
+      {"Secid":1,"question_ids":[1,2],"section_name":"General Questions"},
+        {"Secid":2,"question_ids":[3,4,5,6,7,8,9,10,11,12,13,14],"section_name":"Strategy"},
+        {"Secid":3,"question_ids":[15,16],"section_name":"UI/UX"},
+        {"Secid":4,"question_ids":[17,18,19,20],"section_name":"Development"},
+        {"Secid":5,"question_ids":[21,22],"section_name":"Product Growth"}]
 
 
 }
